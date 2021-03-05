@@ -1,0 +1,5 @@
+# display bar chart of all values that appear in dataframe column
+import pandas as pd
+import matplotlib.pyplot as plt
+%matplotlib inline
+df['created'].dt.hour.value_counts(sort=False).plot.bar()
