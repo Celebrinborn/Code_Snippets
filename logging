@@ -16,3 +16,8 @@ f_handler.setFormatter(f_format)
 # Add handlers to the logger
 logger.addHandler(c_handler)
 logger.addHandler(f_handler)
+
+
+
+
+# source: https://medium.com/pythoneers/master-logging-in-python-73cd2ff4a7cb
